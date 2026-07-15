@@ -1,8 +1,8 @@
 class Student:
     total_students = 0
 
-    def __init__(self, roll_no, name, marks):
-        self.roll_no = roll_no
+    def __init__(self, roll, name, marks):
+        self.roll_no = roll
         self.name = name
         self.marks = marks
         Student.total_students += 1
